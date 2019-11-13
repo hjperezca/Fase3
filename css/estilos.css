@@ -1,0 +1,567 @@
+
+#cabecera {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#autor {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#lectura1 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#lectura2 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#lectura3 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#lectura4 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#lectura5 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#multimedia1 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#multimedia2 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#multimedia3 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#multimedia4 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+#multimedia5 {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+/*Etiquetas*/
+body {
+	margin: 0;
+	font-family: 'Libre Franklin', sans-serif;
+	background:  #005883;
+}
+
+h1{
+font-family: 'Libre Franklin', sans-serif;
+color: black;
+margin-left: 10px;
+font-size: 18px;
+text-align: left;
+}
+
+h2{
+font-family: 'Libre Franklin', sans-serif;
+color: black;
+margin-left: 10px;
+font-size: 18px;
+text-align: left;
+}
+
+h3{
+font-family: 'Libre Franklin', sans-serif;
+color: black;
+font-size: 12px;
+text-align: center;
+}
+
+header {
+	width: 780px;
+	height: 240px;
+	background: url(../imagenes/tecnologia.jpg);
+}
+
+nav {
+width: 780px;
+height: 70px;
+display: flex;
+background: rgba(255, 255, 255, 3,5);
+font-size: 18px;
+justify-content: space-between;
+}
+
+.menu ul {
+display: flex;
+padding: 0;
+margin:auto;
+list-style: none;
+padding-top: 4px;
+}
+
+.menu a {
+	display: block;
+	padding: 15px;
+	background-color: #F9B53C;
+	text-decoration: none;
+	color: #191C26;
+	border-radius: 10px;
+}
+
+.menu a:hover {
+	background-color: #CC673B;
+}
+
+.menu ul li ul {
+	display: none;
+}
+
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+	display: block;
+}
+
+section{
+	width: 450px;
+	height: 260px;
+	background:  #F0B429;
+	float: right;
+	border-radius: 10px;
+}
+
+figure{
+	float: left ;
+}
+
+aside{
+	width: 310px;
+	height: 260px;
+	background:  #F0B429;
+	float: left;
+	margin-right: 20px;
+	border-radius: 10px;
+	}
+
+footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#lectura1 section{
+	width: 780px;
+	height: 600px;
+}
+#lectura1 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+	}
+
+#lectura2 section{
+	width: 780px;
+	height: 600px;
+}
+#lectura2 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+	}
+	
+#lectura3 section{
+	width: 780px;
+	height: 600px;
+}
+#lectura3 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+	
+#lectura4 section{
+	width: 780px;
+	height: 600px;
+}
+#lectura4 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+	
+#lectura5 section{
+	width: 780px;
+	height: 600px;
+}
+#lectura5 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+	
+#multimedia1 section{
+	width: 780px;
+	height: 600px;
+}
+#multimedia1 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#multimedia2 section{
+	width: 780px;
+	height: 600px;
+}
+#multimedia2 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#multimedia3 section{
+	width: 780px;
+	height: 600px;
+}
+#multimedia3 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#multimedia4 section{
+	width: 780px;
+	height: 600px;
+}
+#multimedia4 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#multimedia5 section{
+	width: 780px;
+	height: 600px;
+}
+#multimedia5 footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#autor section{
+	width: 780px;
+	height: 400px;
+}
+#autor footer{
+	width: 780px;
+	height: 100px;
+	background:  #F0B429;
+	float: center;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+
+.lectura1 nav {
+width: 780px;
+height: 70px;
+display: flex;
+background: rgba(255, 255, 255, 3,5);
+font-size: 18px;
+justify-content: space-between;
+}
+
+.lectura1 ul {
+display: flex;
+padding: 0;
+margin:auto;
+list-style: none;
+padding-top: 4px;
+z-index: 0;
+}
+
+.lectura1 a {
+	display: block;
+	padding: 15px;
+	background-color: #F9B53C;
+	text-decoration: none;
+	color: #191C26;
+	border-radius: 10px;
+}
+
+.lectura1 a:hover {
+	background-color: #CC673B;
+}
+
+.lectura1 ul li ul {
+	display: none;
+}
+
+.lectura1 ul li a:hover + ul, .lectura1 ul li ul:hover {
+	display: block;
+}
+
+
+.lectura2 nav {
+width: 780px;
+height: 70px;
+display: flex;
+background: rgba(255, 255, 255, 3,5);
+font-size: 18px;
+justify-content: space-between;
+}
+
+.lectura2 ul {
+display: flex;
+padding: 0;
+margin:auto;
+list-style: none;
+padding-top: 4px;
+z-index: 0;
+}
+
+.lectura2 a {
+	display: block;
+	padding: 15px;
+	background-color: #F9B53C;
+	text-decoration: none;
+	color: #191C26;
+	border-radius: 10px;
+}
+
+.lectura2 a:hover {
+	background-color: #CC673B;
+}
+
+.lectura2 ul li ul {
+	display: none;
+}
+
+.lectura2 ul li a:hover + ul, .lectura2 ul li ul:hover {
+	display: block;
+}
+
+.lectura3 nav {
+width: 780px;
+height: 70px;
+display: flex;
+background: rgba(255, 255, 255, 3,5);
+font-size: 18px;
+justify-content: space-between;
+}
+
+.lectura3 ul {
+display: flex;
+padding: 0;
+margin:auto;
+list-style: none;
+padding-top: 4px;
+z-index: 0;
+}
+
+.lectura3 a {
+	display: block;
+	padding: 15px;
+	background-color: #F9B53C;
+	text-decoration: none;
+	color: #191C26;
+	border-radius: 10px;
+}
+
+.lectura3 a:hover {
+	background-color: #CC673B;
+}
+
+.lectura3 ul li ul {
+	display: none;
+}
+
+.lectura3 ul li a:hover + ul, .lectura3 ul li ul:hover {
+	display: block;
+}
+
+.lectura4 nav {
+width: 780px;
+height: 70px;
+display: flex;
+background: rgba(255, 255, 255, 3,5);
+font-size: 18px;
+justify-content: space-between;
+}
+
+.lectura4 ul {
+display: flex;
+padding: 0;
+margin:auto;
+list-style: none;
+padding-top: 4px;
+z-index: 0;
+}
+
+.lectura4 a {
+	display: block;
+	padding: 15px;
+	background-color: #F9B53C;
+	text-decoration: none;
+	color: #191C26;
+	border-radius: 10px;
+}
+
+.lectura4 a:hover {
+	background-color: #CC673B;
+}
+
+.lectura4 ul li ul {
+	display: none;
+}
+
+.lectura4 ul li a:hover + ul, .lectura4 ul li ul:hover {
+	display: block;
+}
+
+.lectura5 nav {
+width: 780px;
+height: 70px;
+display: flex;
+background: rgba(255, 255, 255, 3,5);
+font-size: 18px;
+justify-content: space-between;
+}
+
+.lectura5 ul {
+display: flex;
+padding: 0;
+margin:auto;
+list-style: none;
+padding-top: 4px;
+z-index: 0;
+}
+
+.lectura5 a {
+	display: block;
+	padding: 15px;
+	background-color: #F9B53C;
+	text-decoration: none;
+	color: #191C26;
+	border-radius: 10px;
+}
+
+.lectura5 a:hover {
+	background-color: #CC673B;
+}
+
+.lectura5 ul li ul {
+	display: none;
+}
+
+.lectura5 ul li a:hover + ul, .lectura5 ul li ul:hover {
+	display: block;
+}
+
+.autor nav {
+width: 780px;
+height: 70px;
+display: flex;
+background: rgba(255, 255, 255, 3,5);
+font-size: 18px;
+justify-content: space-between;
+}
+
+.autor ul {
+display: flex;
+padding: 0;
+margin:auto;
+list-style: none;
+padding-top: 4px;
+z-index: 0;
+}
+
+.autor a {
+	display: block;
+	padding: 15px;
+	background-color: #F9B53C;
+	text-decoration: none;
+	color: #191C26;
+	border-radius: 10px;
+}
+
+.autor a:hover {
+	background-color: #CC673B;
+}
+
+.autor ul li ul {
+	display: none;
+}
+
+.autor ul li a:hover + ul, .autor ul li ul:hover {
+	display: block;
+}
